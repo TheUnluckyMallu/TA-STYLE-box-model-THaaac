@@ -47,7 +47,7 @@ table {
 h1{ padding: 10px;
     font: x-large bolder;}
 
-.type1, .type2, .type3,.type4,.type5{
+.box{
     display: inline-block;
     background-color: brown;
     width: 100px; height: 60px;
@@ -61,7 +61,6 @@ h1{ padding: 10px;
 p{
     margin: 10px;
     width: 220px;
-    height: 280px;
     background-color: crimson;
     color: white;
     border-top: 15px solid blue;
@@ -69,5 +68,9 @@ p{
     border-right: 15px solid grey;
     border-bottom: 15px solid yellow;
     padding: 10px;
-    box-shadow: 0px 0px 0px 10px purple;
 }
+.bigBox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: purple;
+    display: inline-block;}
